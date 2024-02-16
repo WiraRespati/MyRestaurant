@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Restaurant</string>
+    <string name="email">wirarespatibppn@gmail.com</string>
+    <string name="name">Wira Respati</string>
+    <string name="search_restaurant">Search Restaurant</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
