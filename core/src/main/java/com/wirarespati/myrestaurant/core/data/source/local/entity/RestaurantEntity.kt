@@ -1,5 +1,6 @@
 package com.wirarespati.myrestaurant.core.data.source.local.entity
 
+import android.annotation.SuppressLint
 import android.os.Parcelable
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
@@ -10,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 @Entity(tableName = "restaurant")
 data class RestaurantEntity(
-    @PrimaryKey
+    @SuppressLint("KotlinNullnessAnnotation") @PrimaryKey
     @NonNull
     @ColumnInfo("id")
     val id: String,

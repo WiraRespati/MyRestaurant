@@ -76,12 +76,12 @@ fun AboutScreen(
 
 @Composable
 fun AboutContent(
-    modifier: Modifier = Modifier.background(color = Color(0xffdedee0))
+    modifier: Modifier = Modifier
 ) {
     Column(
         modifier = modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .background(color = Color(0xffdedee0))
     ) {
         Spacer(modifier = modifier.height(100.dp))
         AsyncImage(
