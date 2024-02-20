@@ -10,17 +10,10 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-
-val Brown200 = Color(0xFFBCAAA4)
-val Brown500 = Color(0xFF795548)
-val Brown700 = Color(0xFF5D4037)
-val Amber200 = Color(0xFFFFD740)
-val Cream = Color(0xFFD2B48C)
 
 
 private val DarkColorScheme = darkColorScheme(

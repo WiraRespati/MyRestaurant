@@ -36,8 +36,10 @@ class RemoteDataSource(private val apiService: ApiService) {
                 val dataArray = response.restaurant
                 if (dataArray != null) {
                     emit(ApiResponse.Success(response.restaurant))
+                    Log.d("detail","Berhasil get detail")
                 } else {
                     emit(ApiResponse.Empty)
+                    Log.d("detail","Berhasil get detail tapi kosong")
                 }
             } catch (e: Exception) {
                 emit(ApiResponse.Error(e.toString()))
